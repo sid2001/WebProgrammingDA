@@ -1,0 +1,11 @@
+#result{
+  width: auto;
+  padding: 10px;
+  background-color: rgba(109, 75, 140, 0.792);
+  border-radius: 20px;;
+}
+#result>div{
+  /* filter: invert(1); */
+   color: black;
+   cursor:default;
+}

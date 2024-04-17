@@ -1,0 +1,16 @@
+#nav-options{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 0px;
+  left: 1%;
+  width: 98%;
+  border-bottom: 1px solid rgb(161, 158, 158);
+}
+#homelink{
+  color: wheat;
+}
+.nav-card{
+  color: rgb(155, 205, 248);
+  margin-right:2em ;  
+}

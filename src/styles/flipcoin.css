@@ -1,0 +1,58 @@
+body{
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.729);
+}
+#coin-flip-wrapper{
+    margin: auto;
+    background-color: rgba(240, 248, 255, 0.28);
+    padding: 20px;
+    border-radius: 20px;
+}
+#coin{
+    position: relative;
+    background-color: rgba(245, 196, 80, 0.855);
+    /* border: 1px solid wheat; */
+    color: rgb(0, 0, 0);
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+#face{
+    position: relative;
+    top: 39%;
+}
+#scores{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#info{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+#result{
+  margin-top: 10px;
+  background-color: rgb(122, 193, 255);
+  border: 1px solid;
+}
+#flip-button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  border:none;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: inherit;
+  color: rgb(0, 0, 0);
+}
+#flip-button:hover{
+  box-shadow: 0px 0px 2px 0.5px  rgba(255, 255, 255, 0.863);
+  transition: 0.2s;
+}
+
+
